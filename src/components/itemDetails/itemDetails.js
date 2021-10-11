@@ -1,4 +1,4 @@
-import React, {Component} from "react";
+import React, {Component} from 'react';
 import './itemDetails.css';
 
 
@@ -12,7 +12,7 @@ const Field = ({item, field, label}) => {
 }
 
 export {
-    field
+    Field
 };
 
 export default class itemDetails extends Component {
