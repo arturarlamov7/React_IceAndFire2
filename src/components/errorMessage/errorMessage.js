@@ -1,5 +1,5 @@
-import React from "react";
-import './errorMesage.css';
+import React from 'react';
+import './errorMessage.css';
 import img from './error.jpg';
 
 const ErrorMessage = () => {

@@ -20,7 +20,7 @@ export default class GotService {
     }
 
     getBook = async (id) => {
-        const book = await this.getResource(`/books/${id}`);
+        const book = await this.getResource(`/books/${id}/`);
         return this._transformBook(book);
     }
 
