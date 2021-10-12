@@ -9,7 +9,7 @@ export default class BooksItem extends Component {
         return (
             <ItemDetails
             itemId={this.props.bookId}
-            getData={this.getService.getBook} >
+            getData={this.gotService.getBook} >
                 <Field field='numberOfPages' label='Number of pages'/>
                 <Field field='publisher' label='Publisher'/>
                 <Field field='released' labe='Released'/>
