@@ -1,17 +1,17 @@
 import React, {Component} from "react";
 import {Col, Row, Container} from 'reactstrap';
 import Header from '../header';
-import RandomChar from '../RandomChar';
+import RandomChar from '../randomChar';
 import ErrorMessage from '../errorMessage';
 import {CharacterPage, BooksPage, HousesPage, BooksItem} from '../pages';
-import gotSevice from '../../services/gotSevice';
+import gotService from '../../services/gotService';
 import { BrowserRouter as Router, Route} from "react-router-dom";
 
 import './app.css';
 
 
 export default class App extends Component {
-    gotSevice = new gotSevice();
+    gotSevice = new gotService();
 
     state = {
         showRandomChar: true,
